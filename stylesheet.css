@@ -1,0 +1,48 @@
+/* ===== NAVBAR ======*/
+
+@media only screen and (max-width: 500px)
+/* shows elements in a column^*/
+
+ul {
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li  {
+    list-style-type: none;
+    margin: 0 2vw;
+    font-size: 2vh;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    padding: 1vw;
+    font-family: monospace;
+    display: block;
+}
+
+nav {
+    width: 100vw;
+    background-color: azure;
+    padding: 1vw;
+}
+
+a:hover {
+    background-color: aqua;
+}
+
+
+
+
+
+/* ======= BODY =======*/
+
+body {
+    margin: 0;
+}
