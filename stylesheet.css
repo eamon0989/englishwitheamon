@@ -1,10 +1,27 @@
 /* ===== NAVBAR ======*/
 
-@media only screen and (max-width: 500px)
+@media only screen and (max-width: 400px) {}
 /* shows elements in a column^*/
 
-ul {
-    flex-direction: column;
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+    li {
+        margin: 0;
+    }
+    a {
+        display: block;
+    }
+    button {
+        display: block;
+        padding: 2vw;
+        font-size: 2vh;
+        background-color: aqua;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
 }
 
 ul {
@@ -17,7 +34,6 @@ li  {
     list-style-type: none;
     margin: 0 2vw;
     font-size: 2vh;
-    margin: 0;
 }
 
 a {
@@ -37,7 +53,11 @@ a:hover {
     background-color: aqua;
 }
 
-
+button {
+    display: block;
+    cursor: pointer
+    align-self: flex-start;
+}
 
 
 
